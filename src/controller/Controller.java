@@ -1,4 +1,4 @@
-package controller;
+package controller;//EXERCICIO1
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -27,7 +27,7 @@ public class Controller implements IArquivos {
 					linha = buffer.readLine();
 				}
 		} else {
-			throw new IOException("Arquivo Inválido.");
+			throw new IOException("Arquivo Invalido.");
 		}
 	}
 	
